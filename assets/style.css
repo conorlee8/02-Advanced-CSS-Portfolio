@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial Narrow, sans-serif, monospace;
+  margin: 0;
+  text-size-adjust: auto;
+}
+
+header {
+  font-size: xx-large;
+  padding: 50px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+nav {
+  text-size-adjust: auto;
+  justify-content: space-around;
+  display: flex;
+  background-color: darkcyan;
+  color: white;
+  min-height: 30px;
+  padding: auto;
+}
+
+nav a {
+  float: left;
+  width: 200px;
+  padding-top: 10px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.1em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav__logo:hover {
+  padding: 9px 12px;
+}
+
+.nav__logo-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.navtext:hover {
+  font-size: 90%;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  background: url("https://i.pinimg.com/originals/b9/d2/f1/b9d2f1b92e298027f61e0fb1fc03d44e.gif");
+  background-size: 100%;
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 80px;
+  text-align: center;
+}
+
+footer {
+  padding: 70px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+
+.topics {
+  flex: 4;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  border-style: solid;
+  border-width: 10px;
+  padding: 10px;
+  flex: 0 0 200px;
+  background-size: 100%;
+  background-image: url("https://www.shutterstock.com/image-vector/sky-blue-black-color-combination-600nw-2468931429.jpg")
+}
+
+.card header {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.cardtext {
+  padding: 40px;
+}
+
+.card p {
+  padding: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  font-size: larger;
+}
+
+.card img {
+  padding: 10px;
+  max-width: 200px;
+  ;
+}
+
+footer {
+  font-size: larger;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  main,
+  nav {
+    flex-direction: row;
+  }
+}
